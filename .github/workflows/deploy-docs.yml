@@ -1,6 +1,6 @@
 name: Deploy Storybook
 
-on: 
+on:
   push:
     branches:
       - main
@@ -15,7 +15,7 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: 16
 
       - name: Install dependencies

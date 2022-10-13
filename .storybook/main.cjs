@@ -20,6 +20,6 @@ module.exports = {
       config.base = '/study-design-system-storybook/'
     }
 
-    return configType
+    return config
   }
 }
